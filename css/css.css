@@ -12,7 +12,7 @@ body {
 }
 section {
 	background-color: #292929;
-	border: 3px solid #2b2b2b;
+	border: 1px solid #e3e3e3;
 	position: relative;
 	/*I added border-radius to make look smooth*/
 	border-radius: 5px;
@@ -44,8 +44,8 @@ div#container {
 	margin: 0px;
 	top: 0px;
 	right: 0px;
-	border-bottom: 3px solid #2e2d2a;
-	border-left: 3px solid #2e2d2a; 
+	border-bottom: 1px solid #e3e3e3;
+	border-left: 1px solid #e3e3e3; 
 	border-radius: 0 5px 0 0;
 }
 .menuTitle#chicken {
@@ -81,7 +81,7 @@ div#container {
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-md-2 {
-		float: right;
+		float: left;
 		width: 50%;
 		padding: 15px;
 	}
@@ -96,6 +96,9 @@ div#container {
 	p {
 		margin-top: 50px;
 	}
+	.row {
+	width: 80%;
+	}
 }
 @media (max-width: 767px) {
 	.col-s-1 {
@@ -108,5 +111,8 @@ div#container {
 	}
 	p {
 		margin-top: 50px;
+	}
+	.row {
+	width: 80%;
 	}
 }
