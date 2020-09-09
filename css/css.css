@@ -74,7 +74,7 @@ div#container {
 	}
 	/*I added a bit of style for the section*/
 	section:hover {
-	border: 3px solid #161616;
+	border: 1px solid #161616;
 	cursor: pointer;
 	}
 	p {
