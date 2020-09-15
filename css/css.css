@@ -82,12 +82,12 @@ div#container {
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-2 {
+	.col-md-6 {
 		float: left;
 		width: 50%;
 		padding: 15px;
 	}
-	.col-md-1 {
+	.col-md-12 {
 		float: left;
 		width: 100%;
 		padding: 15px;
@@ -100,7 +100,7 @@ div#container {
 	}
 }
 @media (max-width: 767px) {
-	.col-s-1 {
+	.col-s-12 {
 		float: left;
 		width: 100%;
 		padding: 15px;
